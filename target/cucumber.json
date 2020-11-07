@@ -1,0 +1,283 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1536752873,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on a Way2Automation website",
+            "match": {
+              "location": "testSteps.i_am_on_a_way2automation_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-07T17:24:46.653Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1995400996,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Add a user and validate the user has been added to the table",
+        "description": "",
+        "id": "automate-as-an-engineer-candidate-i-need-to-automate-http://www.way2automation.com/angularjs-protractor/webtables/-so-i-can-show-my-automation-capabilities;add-a-user-and-validate-the-user-has-been-added-to-the-table;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 98871159,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 75646122,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click the Add User button",
+            "match": {
+              "location": "testSteps.i_click_the_add_user_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 865990915,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter \"TestOne\", \"TestTwo\", \"testing\",\"12345\", \"Company AAA\" ,  \"Customer\", \"margaryta@evisortteam.com\", \"12345444\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestOne\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"TestTwo\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"testing\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"12345\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"Company AAA\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"Customer\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"margaryta@evisortteam.com\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"12345444\"",
+                  "offset": 107
+                }
+              ],
+              "location": "testSteps.i_enter(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65358147,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click Save button",
+            "match": {
+              "location": "testSteps.i_click_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56555430,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I validate the user has been added to the table \"TestOne\", \"TestTwo\",\"testing\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestOne\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"TestTwo\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"testing\"",
+                  "offset": 69
+                }
+              ],
+              "location": "testSteps.i_validate_the_user_has_been_added_to_the_table(String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddUser"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1396237492,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on a Way2Automation website",
+            "match": {
+              "location": "testSteps.i_am_on_a_way2automation_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-07T17:24:51.400Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1322538462,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Delete user and validate the user has been deleted",
+        "description": "",
+        "id": "automate-as-an-engineer-candidate-i-need-to-automate-http://www.way2automation.com/angularjs-protractor/webtables/-so-i-can-show-my-automation-capabilities;delete-user-and-validate-the-user-has-been-deleted;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 96599711,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 558011640,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click Delete button for \"Mark\" and \"Novak\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mark\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Novak\"",
+                  "offset": 37
+                }
+              ],
+              "location": "testSteps.i_click_delete_button_for_and(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27412573,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click OK button",
+            "match": {
+              "location": "testSteps.i_click_ok_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21957334,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the User \"Mark\",\"Novak\" is removed from the table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mark\"",
+                  "offset": 9
+                },
+                {
+                  "val": "\"Novak\"",
+                  "offset": 16
+                }
+              ],
+              "location": "testSteps.the_user_is_removed_from_the_table(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteUser"
+          }
+        ]
+      }
+    ],
+    "name": "Automate As an Engineer Candidate I need to automate http://www.way2automation.com/angularjs-protractor/webtables/ So I can show my automation capabilities",
+    "description": "",
+    "id": "automate-as-an-engineer-candidate-i-need-to-automate-http://www.way2automation.com/angularjs-protractor/webtables/-so-i-can-show-my-automation-capabilities",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/featureFiles/users.feature",
+    "tags": []
+  }
+]
